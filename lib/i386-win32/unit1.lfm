@@ -1,0 +1,21 @@
+object Form1: TForm1
+  Left = 238
+  Height = 267
+  Top = 145
+  Width = 342
+  Caption = 'Form1'
+  LCLVersion = '1.2.6.0'
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Connected = True
+    HostName = 'localhost'
+    Port = 0
+    Database = 'tugaspd'
+    User = 'root'
+    Protocol = 'mysql'
+    LibraryLocation = 'C:\xampp\mysql\lib\libmysql.dll'
+    left = 67
+    top = 77
+  end
+end
